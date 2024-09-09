@@ -1,0 +1,295 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background: #f3eeee;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+button{
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    background-color: rgba(119, 136, 153, 0.39);
+    border-radius: 10px;
+    border: 3px solid gray;
+    margin:  20px 10px 10px 10px; ;
+}
+.cardPost>h3{
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+.cardPost>h4{
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+.cardPost>h5{
+    font-size: 20px;
+    color: darkslategray;
+    margin-top: 20px;
+
+}
+.cardPost>p{
+    font-size: 18px;
+    margin-top: 30px;
+}
+.cardPost>button{
+    margin-top: 90px;
+}
+h4{
+    color: darkblue;
+    margin:  auto ;
+}
+.card h5 {
+    height: 90px;
+}
+.card h6{
+    color: blue;
+    font-size: 16px;
+}
+
+.user{
+    width: 400px;
+    height: 200px;
+    background-color: rgba(121, 161, 148, 0.3);
+    border: 4px solid lightslategrey;
+    border-radius: 30px;
+    box-shadow: -1px 1px 31px -3px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+
+}
+.user:hover{
+    background: rgba(42, 236, 213, 0.18);
+    transition: .3s;
+    transform: rotateY(2grad);
+}
+.target{
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+}
+/*--------------------------------------*/
+#userList{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+#userList>button{
+    width: 200px;
+}
+.buttonPost{
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+    background-color: rgba(119, 136, 153, 0.39);
+    border-radius: 10px;
+    border: 3px solid gray;
+    margin:  auto ;
+
+}
+.buttonPost:hover{
+    background: rgba(42, 236, 213, 0.18);
+    transition: .3s;
+    transform: rotateY(2grad);
+
+}
+#userList>div{
+    width: 700px;
+    height: 400px;
+    background: rgba(121, 161, 148, 0.3);
+    border: 4px solid lightslategrey;
+    border-radius: 30px;
+    box-shadow: -1px 1px 31px -3px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+
+}
+#userList>div:hover{
+    background: rgba(42, 236, 213, 0.18);
+    transition: .3s;
+    transform: rotateY(2grad);
+
+}
+.cardPostU{
+    width: 280px;
+    height: 200px;
+    border: 4px solid lightslategrey;
+    border-radius: 30px;
+    background: rgba(121, 161, 148, 0.3);
+    box-shadow: -1px 1px 31px -3px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5px;
+    padding: 10px;
+}
+.cardPostU:hover{
+    background: rgba(42, 236, 213, 0.18);
+    transition: .3s;
+    transform: rotateY(2grad);
+}
+.posts{
+    width: 600px;
+    height: 600px;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 2vh;
+
+}
+/*--------------------------------------------*/
+
+.cardPost{
+    width: 600px;
+    border: 4px solid lightslategrey;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgba(121, 161, 148, 0.3);
+    box-shadow: -1px 1px 31px -3px rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+
+}
+.cardComments {
+    width: 220px;
+    height: 300px;
+    background-color: rgba(121, 161, 148, 0.3);
+    border: 4px solid lightslategrey;
+    border-radius: 30px;
+    box-shadow: -1px 1px 31px -3px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+
+
+}
+
+.cardComments:hover {
+    background: rgba(42, 236, 213, 0.18);
+    transition: .3s;
+    transform: rotateY(2grad);
+}
+.target-details {
+    width: 1800px;
+    background-color: rgba(121, 161, 148, 0.3);
+    border: 4px solid lightslategrey;
+    border-radius: 30px;
+    box-shadow: -1px 1px 31px -3px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    margin: 5px;
+    padding: 5px;
+
+}
+
+.target-details:hover {
+    background: rgba(42, 236, 213, 0.18);
+    transition: .3s;
+    transform: rotateY(2grad);
+}
+
+
+h5{
+    font-size: 18px;
+
+}
+.divPrime{
+    width: 1400px;
+    height: 150px;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.divLast{
+    width: 1600px;
+    height: 50px;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+.divLastCard{
+    width: 1800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 5px;
+
+}
+.divCardLast {
+    width: 1300px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.cardPost {
+    width: 1400px;
+    background-color: rgba(121, 161, 148, 0.3);
+    border: 4px solid lightslategrey;
+    border-radius: 30px;
+    box-shadow: -1px 1px 31px -3px rgba(0, 0, 0, 0.2);
+    margin: 10px 10px 10px 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cardPost:hover {
+    background: rgba(42, 236, 213, 0.18);
+    transition: .3s;
+    transform: rotateY(2grad);
+}
